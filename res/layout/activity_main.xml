@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/darker_gray"
+    tools:context="com.example.runrun.MainActivity" >
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_new_race" />
+
+    <EditText
+        android:id="@+id/etRace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="@android:color/holo_blue_bright"
+        android:inputType="numberDecimal" >
+    </EditText>
+
+    <Button
+        android:id="@+id/btSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save" />
+    
+    <TextView
+        android:id="@+id/tvAllRaces"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/no_race_yet" />
+</LinearLayout>
